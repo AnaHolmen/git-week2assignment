@@ -1,4 +1,4 @@
-/* changed the background of website, font size and make the font larger with this code */
+/* Changed the background of website, font size and make the font larger with this code */
  body {
  background-color:rgb(183, 246, 193);
  font-family:"Sofia", san-serif;
@@ -12,14 +12,14 @@ text-align: center;
 
 }
  
- /* changed the color of the paragrah and makde the font larger */
+ /* Changed the color of the paragrah and makde the font larger */
 p {
 font-size: large;
 color:blue
 
 }
 
-/* Use this code to build the table width, height and border and made it soild  */
+/* Used this code to build the table width, height and border and made it soild  */
 
 table { border-collapse: collapse;
     width:100% ;
@@ -31,13 +31,13 @@ table,th,td {
     border: 1px solid;
 }
  
-
+/* Used this code so when you hover over the table it is gray */
  tr:hover{
 
     background-color: gray;
 }
 
-/* on the order listed, I had I used the ID box model to make a box using paddingg, margin, width,made the border dotted and colored so it was easier to see, make the back ground color gray  */
+/* On the order listed, I had I used the ID box model to make a box using paddingg, margin, width,made the border dotted and colored so it was easier to see, make the back ground color gray  */
 #box-model {
 
     padding: 15px;
@@ -46,7 +46,7 @@ table,th,td {
     background-color: gray;
     border-style: dotted; border-color:antiquewhite
 
-/* I use the float code to float the pictures to the right for the page to look better layed out, I did have change the PX of the pictures */
+/* Used the float code to float the pictures to the right for the page to look better layed out, I did have change the px of the pictures */
 }
 
 
@@ -55,7 +55,7 @@ table,th,td {
     float: right;
  }
 
-/* I center the home, about and contact link to make it look better and be in line with the about and home page */
+/* centered the home, about and contact link to make it look better and be in line with the about and home page */
 
 div{
     
@@ -63,10 +63,10 @@ div{
     
 }
 
-/* I use the class hov code so you can hover over the form on the contact and when you do it go from antiquewhite to orange */
+/* Used the class hov code so you can hover over the form on the contact and when you do it go from antiquewhite to orange */
 .hov{
     height: 100%;
-    width: 100;
+    width: 100%;
     background-color: antiquewhite;
 }
 
