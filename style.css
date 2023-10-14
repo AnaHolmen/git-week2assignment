@@ -1,15 +1,25 @@
-
+/* changed the background of website, font size and make the font larger with this code */
  body {
  background-color:rgb(183, 246, 193);
  font-family:"Sofia", san-serif;
+ font-size: large;
    
 }
-
-h1, h2 { 
+/* Colored the header and center the header */
+h1, h2 {
 color:rgb(0, 51, 255);
 text-align: center;
 
 }
+ 
+ /* changed the color of the paragrah and makde the font larger */
+p {
+font-size: large;
+color:blue
+
+}
+
+/* Use this code to build the table width, height and border and made it soild  */
 
 table { border-collapse: collapse;
     width:100% ;
@@ -27,13 +37,16 @@ table,th,td {
     background-color: gray;
 }
 
+/* on the order listed, I had I used the ID box model to make a box using paddingg, margin, width,made the border dotted and colored so it was easier to see, make the back ground color gray  */
 #box-model {
 
     padding: 15px;
-    border-style: dotted;
-    border: width 30px;
     margin: 5px;
+    width: 100%;
     background-color: gray;
+    border-style: dotted; border-color:antiquewhite
+
+/* I use the float code to float the pictures to the right for the page to look better layed out, I did have change the PX of the pictures */
 }
 
 
@@ -42,22 +55,15 @@ table,th,td {
     float: right;
  }
 
+/* I center the home, about and contact link to make it look better and be in line with the about and home page */
+
 div{
     
     text-align: center;
     
 }
 
-#home-link{ 
-
-    color:blue
-}
-    
-#home-link:visited { 
-
-    color:blue
-}
-
+/* I use the class hov code so you can hover over the form on the contact and when you do it go from antiquewhite to orange */
 .hov{
     height: 100%;
     width: 100;
@@ -65,6 +71,6 @@ div{
 }
 
 .hov:hover{
-    background-color: aqua;
+    background-color: orange;
 }
  
